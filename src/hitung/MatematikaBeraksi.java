@@ -3,15 +3,13 @@ package hitung;
 
 
 public class MatematikaBeraksi {
-    //Membuat Variabel
-    private double bil1, bil2;
-
-    //Membuat Konstruktor
-public Matematika (double,bil1, double bil2) {
-    this.bil1 = bil1;
-    this.bil2 = bil2;
-    }
-double setPenjumlahan(){
-    return bil1 + bil2;
+    public static void main(String[] args) {
+        //Membuat objek
+        Matematika yudha = new Matematika(7,6);
+        
+        System.out.println("Hasil penjumlahan :"+yudha.setPenjumlahan());
+        System.out.println("Hasil pengurangan :"+yudha.setPengurangan());
+        System.out.println("Hasil perkalian :"+yudha.setPerkalian());
+        System.out.println("Hasil pembagian :"+yudha.setPembagian ());
     }
 }
